@@ -1,0 +1,47 @@
+.userlist {
+  flex: 4;
+  height: 400;
+  width: 100%;
+}
+.userlistuser {
+  display: flex;
+  align-items: center;
+}
+.userlistimg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.userliststatus {
+  display: flex;
+  align-items: center;
+}
+.useractive {
+  color: green;
+  width: 15px !important;
+  height: 15px;
+}
+.userpassive {
+  color: red;
+  width: 15px !important;
+  height: 15px;
+}
+.userlistaction {
+  display: flex;
+  align-items: center;
+}
+.ulistbutton {
+  background-color: rgb(71, 129, 71);
+  border: none;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ulistdelete {
+  color: rgb(203, 72, 72) !important;
+  padding: 10px 10px;
+  cursor: pointer;
+}
